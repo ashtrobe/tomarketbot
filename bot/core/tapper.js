@@ -724,7 +724,7 @@ class Tapper {
             await sleep(game_sleep_time);
 
             // Claim game reward
-            const points = _.random(300, 400);
+            const points = _.random(390, 400);
             const claim_data = {
               game_id: this.TOIY_g,
               points,
